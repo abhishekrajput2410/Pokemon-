@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokemon Universe</title>
+  <link rel="stylesheet" href="pokemon.css" />
+</head>
+<body>
+  <header>
+    <h1>Pokemo<span class="sup">n</span> Uni<span class="sub">verse</span></h1>
+    <div class="controls">
+      <select id="type-filter">
+        <option value="all">Filter By Type</option>
+      </select>
+      <input type="text" id="search" placeholder="Search Pokémon by name..." />
+    </div>
+    
+    <main id="pokemon-container"></main>
+    <button id="load-more">View More</button>
+
+  </header>
+  <main id="pokemon-container"></main>
+  <script src="pokemon.js"></script>
+</body>
+</html>
